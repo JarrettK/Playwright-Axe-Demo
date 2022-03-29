@@ -43,12 +43,14 @@ axe-playwright folder nested in another axe-playwright folder.
 
     a) Install NPM Extension: https://marketplace.visualstudio.com/items?itemName=eg2.vscode-npm-script  
 
-    b) Open the folder for the project in VS Code. (Example: C:\Users\WDAGUtilityAccount\Desktop\axe-playwright)  
+    b) Install Playwright Test for VSCode Extension: https://marketplace.visualstudio.com/items?itemName=ms-playwright.playwright  
+
+    c) Open the folder for the project in VS Code. (Example: C:\Users\WDAGUtilityAccount\Desktop\axe-playwright)  
     > If VS Code asks if you trust the authors of the files in the folder, click the "Yes, I trust the authors" button.  
 
-    c) Close VS Code completely. (Make sure no terminal windows are open. If you did not open any, there shouldn't be any open.)  
+    d) Close VS Code completely. (Make sure no terminal windows are open. If you did not open any, there shouldn't be any open.)  
 
-    d) Make sure Node is working in the VS Code Terminal by entering the following command (you should get a version number):  
+    e) Make sure Node is working in the VS Code Terminal by entering the following command (you should get a version number):  
     * *Note:* In VS Code to open a Terminal use: Terminal > New Terminal or (CTRL + Shift + `).
     * **node -v**
 
