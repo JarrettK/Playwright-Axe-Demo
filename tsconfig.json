@@ -1,0 +1,25 @@
+// https://www.typescriptlang.org/tsconfig
+// https://code.visualstudio.com/docs/typescript/typescript-compiling
+{
+    "compilerOptions": {
+      "target": "es5",
+      "noImplicitAny": true,
+      "removeComments": true,
+      "module": "commonjs",
+      "sourceMap": true,
+      "outDir": "js-output",
+      "allowJs": true,
+      "checkJs": true,
+      "allowUnreachableCode": false,
+      "allowUnusedLabels": false,
+      "exactOptionalPropertyTypes": true,
+      "strictNullChecks": true,
+      "noFallthroughCasesInSwitch": true,
+      "noImplicitOverride": true,
+      "noImplicitReturns": true,
+      "noImplicitThis": true,
+      "noPropertyAccessFromIndexSignature": true
+    },
+    "include": ["src"],
+    "exclude": ["**/node_modules", "**/.*/"]
+}
